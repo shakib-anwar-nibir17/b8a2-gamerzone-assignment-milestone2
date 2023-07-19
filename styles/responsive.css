@@ -17,6 +17,7 @@
 /* banner section */
 .banner-section{
   flex-direction: column-reverse; 
+  margin: 0px 30px;
 }
 .banner-container{
   margin-top: 10px;
@@ -41,7 +42,7 @@
 }
 .btn-primary{
   padding: 10px 10px;
-  font-size: 1rem;
+  font-size: 0.8rem;
   }
 }
 
