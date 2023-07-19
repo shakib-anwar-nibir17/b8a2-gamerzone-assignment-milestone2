@@ -62,9 +62,7 @@
 }
 .iplay-img-container{
   width: 100%;
-  height: auto;
-  margin-left: 0px;
-  margin-top: 20px;
+ 
 }
 #game1{
   width: 100%;
@@ -81,9 +79,12 @@ width: 100%;
 }
 .game-main-container{
   width: 100%;
-  gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 .game-btn{
+  margin-top: 20px;
   width: 120px;
 height: 40px;
 font-size: 0.5rem;
