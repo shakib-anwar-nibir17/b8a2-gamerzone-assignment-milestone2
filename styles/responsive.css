@@ -44,8 +44,42 @@
   padding: 10px 10px;
   font-size: 0.8rem;
   }
+.games-card-container{
+  flex-direction: column;
 }
-
+.span-highligt{
+  font-size: 1.5rem;
+}
+.instant-play-container{
+ flex-direction: column;
+ margin-top: 20px;
+}
+.instant-play-content{
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+}
+.iplay-img-container{
+  width: 100%;
+  height: auto;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+#game1{
+  width: 100%;
+  height: auto;
+}
+.secondary-img{
+  width: 40%;
+  position: relative;
+  top: -100px;
+  left: 0px;
+}
+#game2{
+width: 100%;
+}
+}
 /* responsive for tablet size devices */
 @media screen and (min-width: 425px) and (max-width: 768px){
   .banner-section{
@@ -56,7 +90,38 @@
     background-size: 100%; 
     flex-direction: column;
     width: 100%; 
-    
-  }
-  
 }
+.games-card-container{
+  flex-direction: column;
+}
+.instant-play-container{
+ flex-direction: column;
+ margin-top: 20px;
+}
+.instant-play-content{
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+}
+.iplay-img-container{
+  width: 100%;
+  height: auto;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+#game1{
+  width: 100%;
+  height: auto;
+}
+.secondary-img{
+  width: 40%;
+  position: relative;
+  top: -100px;
+  left: 0px;
+}
+#game2{
+width: 100%;
+}
+}
+  
