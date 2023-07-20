@@ -212,15 +212,13 @@ background-color: #FF42A5;
 .instant-play-container{
   display: flex;
   margin-top: 120px;
+  justify-content: space-around;
 }
 .instant-play-content{
   margin-top: 150px;
-  width: 40%;
+  /* width: 40%; */
   text-align: right;
   padding: 30px 0px;
-}
-.iplay-img-container{
-  margin-left: 250px;
 }
 .secondary-img{
   position: relative;
